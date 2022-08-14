@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "연세대 과거 마일리지 수강신청 결과조회 필터",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://ysweb.yonsei.ac.kr:8888/curri120601/curri_pop_mileage_result01.jsp*"],
+      "js": ["index.js"]
+    }
+  ]
+}
